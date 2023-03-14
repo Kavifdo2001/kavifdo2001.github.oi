@@ -1,0 +1,10 @@
+.postpane{
+    flex: 6;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.589), rgba(46, 36, 231, 0.737));
+}
+
+@media only screen and (max-width: 800px){
+    .postpane{
+        flex: 2.5;
+    }
+}

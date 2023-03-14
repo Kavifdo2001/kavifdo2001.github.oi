@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.leftpane{
+    flex: 1.4;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.589), rgba(46, 36, 231, 0.737));
+    
+
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color:transparent;
+    box-shadow: inset 0 0 5px rgb(0, 0, 0); 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(96, 91, 91);
+    border-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #614b4b; 
+}
+
+.leftpanemenu{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.leftpanemenuItem{
+    display: flex;
+    margin-bottom: 25px;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    font-family: 'Montserrat';
+    box-shadow: inset 0 0 0 0 #5ccaf2;
+    transition: color .4s ease-in-out, box-shadow .3s ease-in-out
+
+}
+
+.leftpanemenuItem:hover{
+    font-weight: bold;
+    box-shadow: inset 150px 0 10px 0px #54b3d6;
+    color: white;
+    
+}
+
+.leftpane-container{
+    padding: 20px;
+}
+
+.leftPaneMenuIcons{
+    margin-right: 10px;
+}
+
+.pagePic{
+    width: 36px;
+    height: 35px;
+    object-fit: cover;
+}
+
+.pagelist{
+    display: flex;
+    margin-bottom: 25px;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    font-family: 'Montserrat';
+    text-decoration: underline;
+}
+
+.pagelist:hover{
+    font-weight: bold;
+}
+
+.pagePic{
+    margin-right: 10px;
+}
+
+.heading{
+    font-family: 'Montserrat';
+    margin: 20px;
+    font-weight: bold;
+}
